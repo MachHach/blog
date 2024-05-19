@@ -3,7 +3,9 @@
 {
 	"name": "Debian",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
-	"image": "mcr.microsoft.com/devcontainers/base:bullseye",
+    "build": {
+        "dockerfile": "Dockerfile"
+    }
 
     // Features to add to the dev container. More info: https://containers.dev/features.
     // "features": {},
@@ -12,7 +14,7 @@
     // "forwardPorts": [],
 
     // Use 'postCreateCommand' to run commands after the container is created.
-    "postCreateCommand": "sh ./.devcontainer/postCreate.sh"
+    // "postCreateCommand": "sh ./.devcontainer/postCreate.sh",
 
     // Configure tool-specific properties.
     // "customizations": {},

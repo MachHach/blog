@@ -41,6 +41,6 @@ git submodule update --remote --merge
 To update Hugo version (for vscode devcontainer workflow):
 
 1. Go to [Hugo GitHub Releases page](https://github.com/gohugoio/hugo/releases) and find the specific version needed.
-    - Copy the URL to the AMD64 `.deb` file there, and update your `./.devcontainer/postCreate.sh` accordingly.
-    - Open the `*_checksums.txt` there, and update your `./.devcontainer/hugo_checksums.txt` with the SHA256 checksum (without changing the file path).
+    - Copy the URL to the AMD64 `.deb` file there, and update your `./.devcontainer/Dockerfile` accordingly.
+    - Open the `*_checksums.txt` there, and update your `./.devcontainer/Dockerfile` with the SHA256 checksum (without changing the file path).
 2. In VS Code, open Command Palette (F1), run "Dev Containers: Rebuild Container".
