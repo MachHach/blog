@@ -2,3 +2,15 @@ baseURL: https://MachHach.github.io/blog/
 languageCode: en-us
 title: Henry Koh
 theme: PaperMod
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  ShowReadingTime: true
+  disableScrollToTop: false
+  socialIcons:
+    - name: github
+      title: View Source on Github
+      url: "https://github.com/MachHach/blog"
