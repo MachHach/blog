@@ -44,3 +44,5 @@ To update Hugo version (for vscode devcontainer workflow):
     - Copy the URL to the AMD64 `.deb` file there, and update your `./.devcontainer/Dockerfile` accordingly.
     - Open the `*_checksums.txt` there, and update your `./.devcontainer/Dockerfile` with the SHA256 checksum (without changing the file path).
 2. In VS Code, open Command Palette (F1), run "Dev Containers: Rebuild Container".
+
+Remember to also update the Hugo version in CI (`./.github/workflows/hugo.yml`).
