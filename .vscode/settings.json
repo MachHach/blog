@@ -1,3 +1,9 @@
 {
-    "editor.renderWhitespace": "all"
+    "editor.renderWhitespace": "all",
+    "editor.rulers": [
+        {
+            "color": "#444",
+            "column": 80,
+        },
+    ],
 }
